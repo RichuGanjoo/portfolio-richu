@@ -153,9 +153,36 @@ footer .email-link {
   text-align: center;
 }
 
+footer .email-link:hover {
+  color: var(--branding-color);
+
+}
+
 footer a{
     text-decoration: none;
     color: black;
+}
+
+footer .contact-box  {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+.family-picture {
+  background: var(--secondary-color);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.contact-box {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+
 }
 
 @media (max-width: 900px) {
@@ -176,6 +203,8 @@ footer a{
         padding: 0;
         text-align: center;
     }
+
+
 
 }
 
